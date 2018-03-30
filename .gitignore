@@ -31,9 +31,11 @@
 *.out
 *.app
 
-# vscode
-
-# googletest
+# LeetCode Test Case
+testcase/*.in
+# Cmake
+build/*
+# Google Test
 gtest/include
 gtest/lib
 gtest/src

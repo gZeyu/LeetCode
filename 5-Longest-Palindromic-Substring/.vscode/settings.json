@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "string": "cpp"
+    }
+    // "editor.fontFamily": "'DejaVu Sans Mono for Powerline', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    // "terminal.integrated.fontSize": 15,
+    // "terminal.integrated.lineHeight": 1,
+    // "typescript.useCodeSnippetsOnMethodSuggest": true,
+    // "editor.formatOnPaste": true,
+    // "editor.formatOnType": true,
+    // "editor.formatOnSave": true,
+    // "cmake-tools-helper.cmake_download_path": "/home/bigding/.vscode/extensions/maddouri.cmake-tools-helper-0.1.1/cmake_download",
+}
