@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/build",
+  "command": "/usr/bin/c++    -I/home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/../googletest/include  -g   -o CMakeFiles/LongestPalindromicSubstring.dir/solution_unittest.cpp.o -c /home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/solution_unittest.cpp",
+  "file": "/home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/solution_unittest.cpp"
+},
+{
+  "directory": "/home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/build",
+  "command": "/usr/bin/c++    -I/home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/../googletest/include  -g   -o CMakeFiles/LongestPalindromicSubstring.dir/solution.cpp.o -c /home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/solution.cpp",
+  "file": "/home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/solution.cpp"
+}
+]
