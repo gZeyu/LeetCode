@@ -1,2 +1,0 @@
-executable;LongestPalindromicSubstring;$<TARGET_FILE:LongestPalindromicSubstring>
-system;Linux;x86_64;GNU

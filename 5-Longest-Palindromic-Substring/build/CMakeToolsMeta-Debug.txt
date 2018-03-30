@@ -1,2 +1,0 @@
-executable;LongestPalindromicSubstring;/home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/build/LongestPalindromicSubstring_unittest.out
-system;Linux;x86_64;GNU
