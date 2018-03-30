@@ -32,9 +32,9 @@
 *.app
 
 # Cmake
-*/build/*
+*/build/
 
 # Google Test
-googletest/include/*
-googletest/lib/*
-googletest/src/*
+googletest/include/
+googletest/lib/
+googletest/src/
