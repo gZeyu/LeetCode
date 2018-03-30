@@ -8,8 +8,8 @@ enable_testing()
 include_directories(../googletest/include)
 link_directories(../googletest/lib)
 
-aux_source_directory(. DIR_5_SRCS)
-add_executable(${PROJECT_NAME} ${DIR_5_SRCS})
+aux_source_directory(. DIR_SRCS)
+add_executable(${PROJECT_NAME} ${DIR_SRCS})
 target_link_libraries(${PROJECT_NAME} gtest gtest_main pthread)
 
 

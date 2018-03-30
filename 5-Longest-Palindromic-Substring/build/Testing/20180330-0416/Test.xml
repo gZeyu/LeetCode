@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20180330-0416-Experimental"
+	Name="ubuntu64"
+	Generator="ctest-3.5.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="5.4.0"
+	OSName="Linux"
+	Hostname="ubuntu64"
+	OSRelease="4.13.0-37-generic"
+	OSVersion="#42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="60"
+	ProcessorCacheSize="8192"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="8073"
+	TotalPhysicalMemory="7861"
+	LogicalProcessorsPerPhysical="4"
+	ProcessorClockFrequency="3192.58"
+	>
+	<Testing>
+		<StartDateTime>Mar 30 13:08 CST</StartDateTime>
+		<StartTestTime>1522386530</StartTestTime>
+		<TestList>
+			<Test>./LongestPalindromicSubstring_unittest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>LongestPalindromicSubstring_unittest</Name>
+			<Path>.</Path>
+			<FullName>./LongestPalindromicSubstring_unittest</FullName>
+			<FullCommandLine>/home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/build/LongestPalindromicSubstring_unittest.out</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00228596</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/bigding/Code/LeetCode/5-Longest-Palindromic-Substring/build/LongestPalindromicSubstring_unittest.out</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from SolutionTest
+[ RUN      ] SolutionTest.Positive
+[       OK ] SolutionTest.Positive (0 ms)
+[----------] 1 test from SolutionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Mar 30 13:08 CST</EndDateTime>
+		<EndTestTime>1522386530</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

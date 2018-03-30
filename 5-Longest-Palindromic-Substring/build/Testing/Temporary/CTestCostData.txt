@@ -1,2 +1,2 @@
-LongestPalindromicSubstring_unittest 1 0.00357199
+LongestPalindromicSubstring_unittest 11 0.002214
 ---

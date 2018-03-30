@@ -8,32 +8,31 @@ class Solution
   public:
     string longestPalindrome(string s)
     {
-        string t;
+        int len = 2 * s.length() + 3;
+        char *t = new char[len]();
+        t[0] = -1;
+        t[1] = '#';
         for (int i = 0; i < s.length(); i++)
         {
-            t = t + "#" + s[i];
+            t[2 * i + 2] = s[i];
+            t[2 * i + 3] = '#';
         }
-        t += "#";
 
-        int *p = new int[t.length()]();
-        p[0] = 0;
-        p[1] = 1;
-        int c = 1, r = 2, j = 0, maxP = 0, cur = 0;
-        for (int i = 2; i < t.length(); ++i)
+        int *p = new int[len]();
+        int c = 0, r = 0, j = 0, maxP = 0, cur = 1;
+        for (int i = 1; i < len - 1; ++i)
         {
-            j = 2 * c - i;
-
-            if (p[j] < r - i)
+            if (i < r)
             {
-                p[i] = p[j];
+                j = 2 * c - i;
+                p[i] = (p[j] < r - i) ? p[j] : r - i;
             }
-            else
+            while (t[i + p[i] + 1] == t[i - p[i] - 1])
             {
-                p[i] = (r > i) ? (r - i) : 0;
-                while ((t[i + p[i] + 1] == t[i - p[i] - 1]) && (i - p[i] - 1 >= 0))
-                {
-                    p[i]++;
-                }
+                p[i]++;
+            }
+            if (i + p[i] >= r)
+            {
                 c = i;
                 r = i + p[i];
             }
@@ -43,7 +42,8 @@ class Solution
                 cur = i;
             }
         }
+        delete[] t;
         delete[] p;
-        return s.substr((cur - maxP + 1) / 2, maxP);
+        return s.substr((cur - maxP - 1) / 2, maxP);
     }
 };

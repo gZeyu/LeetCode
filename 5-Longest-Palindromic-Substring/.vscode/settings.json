@@ -1,7 +1,29 @@
 {
     "files.associations": {
-        "string": "cpp"
-    }
+        "string": "cpp",
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "exception": "cpp",
+        "initializer_list": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "typeinfo": "cpp"
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Disabled"
     // "editor.fontFamily": "'DejaVu Sans Mono for Powerline', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     // "terminal.integrated.fontSize": 15,
     // "terminal.integrated.lineHeight": 1,
