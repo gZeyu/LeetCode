@@ -13,23 +13,19 @@ static int x = []() {
 class Solution
 {
   public:
-    int maxArea(vector<int> &height)
+    string intToRoman(int num)
     {
-        int i = 0, j = height.size() - 1, k = 0;
-        int max = 0, tmp = 0;
-        while (i < j)
-        {
-            tmp = (j - i) * (height[i] < height[j] ? height[i] : height[j]);
-            max = (tmp > max) ? tmp : max;
-            if (height[i] < height[j])
-            {
-                ++i;
-            }
-            else
-            {
-                --j;
-            }
-        }
-        return max;
+        char *c[4][10] = {
+            {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"},
+            {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"},
+            {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"},
+            {"", "M", "MM", "MMM"}};
+        string roman;
+        roman.append(c[3][num / 1000 % 10]);
+        roman.append(c[2][num / 100 % 10]);
+        roman.append(c[1][num / 10 % 10]);
+        roman.append(c[0][num % 10]);
+
+        return roman;
     }
 };

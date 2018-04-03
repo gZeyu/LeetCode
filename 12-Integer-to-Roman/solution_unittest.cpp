@@ -5,14 +5,9 @@
 TEST(SolutionTest, Positive)
 {
     Solution s;
-    int a[5] = {1, 2, 3, 4, 5};
-    vector<int> b(a, a + 5);
-    EXPECT_EQ(6, s.maxArea(b));
-}
-
-TEST(SolutionTest, Zero)
-{
-    Solution s;
-    vector<int> b;
-    EXPECT_EQ(0, s.maxArea(b));
+    EXPECT_STREQ("MMMCMXCIX", s.intToRoman(3999).c_str());
+    EXPECT_STREQ("MDCCCXCIX", s.intToRoman(1899).c_str());
+    EXPECT_STREQ("I", s.intToRoman(1).c_str());
+    EXPECT_STREQ("XCVIII", s.intToRoman(98).c_str());
+    EXPECT_STREQ("CMXCIX", s.intToRoman(999).c_str());
 }
