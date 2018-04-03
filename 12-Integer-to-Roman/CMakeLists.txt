@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(StringToInteger VERSION 0.0.0)
+project(ContainerWithMostWater VERSION 0.0.0)
 
 include(CTest)
 include(CMakeToolsHelpers OPTIONAL)
